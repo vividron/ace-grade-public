@@ -33,9 +33,9 @@ import com.google.firebase.database.ValueEventListener;
 
 public class HomePage extends AppCompatActivity {
 
-    private static final String PREFS_NAME = "AppPrefs";
+    private static final String PREFS_NAME = "AppPrefs"; // local key for storing all user data
     private static final String ANIMATION_SHOWN = "animation_shown";
-    private static final String DOWNLOAD_KEY = "alreadyDownloaded";
+    private static final String DOWNLOAD_KEY = "alreadyDownloaded"; // use to calculate the number of downloads 
     private static final String FIRST_OPEN_KEY = "isFirstOpen";
     Button predict, ktConsultant;
 
